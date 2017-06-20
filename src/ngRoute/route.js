@@ -863,7 +863,7 @@ function $RouteProvider() {
 instantiateRoute.$inject = ['$injector'];
 function instantiateRoute($injector) {
   if (isEagerInstantiationEnabled) {
-    // Instantiate `$route`
+    // Instantiate `$route
     $injector.get('$route');
   }
 }
